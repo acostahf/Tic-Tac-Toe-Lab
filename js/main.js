@@ -1,16 +1,17 @@
 console.log('hello people');
 
-//---------------------------cached element references-----------------------------------------------
+// //---------------------------cached element references-----------------------------------------------
 
-// const xPicEl = document.getElementById('x');
+let cellSelected = [];
 
-// -------------------------------event listeners -------------------------------------------
+// // -------------------------------event listeners -------------------------------------------
 
-document.getElementById('cellBlock')
-    .addEventListener('click', cellClick);
-
-
-//------------------------------functions------------------------------------------------------
+document.getElementById('td')
+    .addEventListener('click', addCellSelected);
 
 
+// //------------------------------functions------------------------------------------------------
 
+function addCellSelected() {
+    return cellN.push(cellSelected)
+};
